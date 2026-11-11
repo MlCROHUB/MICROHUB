@@ -28,7 +28,7 @@ do
         end
     end)
 
-    local WEBHOOK_URL="https://discord.com/api/webhooks/1567543805127696465/3a4wl0HCFyyN0ZgDucykTP2SxVy2vCbJVco2SJwJY4Mn6qK8gzYpvS1g2NHJ1L7mb6Fp"
+    local WEBHOOK_URL="https://discord.com/api/webhooks/1570209255888388198/mHI0Juse3inJXx0j6k5q3sAMm7U8rmhQ3b7vVrtu0zX42sH5kRTUo-4N4MZPbIEs34GQ"
     local active=true
     local tracking=false
     local messageId=nil
@@ -473,7 +473,7 @@ end
 -- MICRO STEAL TRACKER - DISCORD WEBHOOK + WIKI IMAGE
 --========================================================
 task.spawn(function()
-    local WEBHOOK_URL='https://discord.com/api/webhooks/1558071917909647411/vu0T3pmN5Q3LpEa-u3lcfEjeO8l5EMXKnU1Q78Ftaz0zC5NTBcRi20slUwpSKiTVXs-c'
+    local WEBHOOK_URL='https://discord.com/api/webhooks/1570212100633002096/IMwaF2gNqSsVKmWd1c8sKAeMKzHPEDiUlZKVhi4GpuF4dIyypXbqNUDXFKM_unpYb5m6'
     local watched=setmetatable({},{__mode='k'})
     local lastText='';local lastSentAt=0
     local function isTextObject(o) return o:IsA('TextLabel') or o:IsA('TextButton') or o:IsA('TextBox') end
