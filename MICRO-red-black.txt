@@ -2427,7 +2427,7 @@ workspace:GetPropertyChangedSignal('CurrentCamera'):Connect(updateScale)
 local Main,MainTop=panel(ScreenGui,UDim2.fromOffset(278,386),
     UDim2.new(.5,-139,.5,-190),'MICRO')
 track('Main',Main);drag(Main,MainTop)
-local tag=textLabel(MainTop,'@van',UDim2.new(0,110,1,0),
+local tag=textLabel(MainTop,'m_ii_c_r_o',UDim2.new(0,110,1,0),
     UDim2.new(1,-118,0,0),7,C.sub,Enum.TextXAlignment.Right,5)
 local tabHolder=Instance.new('Frame',Main)
 tabHolder.BackgroundTransparency=1
@@ -3043,9 +3043,9 @@ bolt.Font=Enum.Font.GothamBold
 local brand=textLabel(Bottom,'MICRO',UDim2.fromOffset(95,18),
     UDim2.fromOffset(46,4),9,C.orange,Enum.TextXAlignment.Left,4)
 brand.Font=Enum.Font.GothamBold
-textLabel(Bottom,'@van',UDim2.fromOffset(120,10),
+textLabel(Bottom,'m_ii_c_r_o',UDim2.fromOffset(120,10),
     UDim2.fromOffset(46,21),6,C.sub,Enum.TextXAlignment.Left,4)
-local disc=textLabel(Bottom,'https://discord.gg/jDZ6A2uh',
+local disc=textLabel(Bottom,'https://discord.gg/d5cWmzsdk',
     UDim2.fromOffset(150,38),UDim2.fromOffset(178,0),
     8,C.orange,Enum.TextXAlignment.Center,4)
 disc.Font=Enum.Font.GothamBold;disc.TextScaled=true
